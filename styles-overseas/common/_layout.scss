@@ -113,13 +113,37 @@ header {
 							text-transform: uppercase; 
 							height:20rem; 
 							overflow: hidden;
-
-							img {
-								position:absolute; 
-								top:0; 
-								left:0; 
-								width:100%; 
-								z-index: 1;
+							
+							&.nav01 {
+								background:url(../../image/nav_01.png) no-repeat center / cover;
+							}
+							
+							&.nav02 {
+								background:url(../../image/nav_02.png) no-repeat center / cover;
+							}
+							
+							&.nav03 {
+								background:url(../../image/nav_03.png) no-repeat center / cover;
+							}
+							
+							&.nav04 {
+								background:url(../../image/nav_04.png) no-repeat center / cover;
+							}
+							
+							&.nav05 {
+								background:url(../../image/nav_05.png) no-repeat center / cover;
+							}
+							
+							&.nav06 {
+								background:url(../../image/nav_06.png) no-repeat center / cover;
+							}
+							
+							&.nav07 {
+								background:url(../../image/nav_07.png) no-repeat center / cover;
+							}
+							
+							&.nav08 {
+								background:url(../../image/nav_08.png) no-repeat center / cover;
 							}
 
 							span {

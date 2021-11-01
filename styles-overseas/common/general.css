@@ -4488,12 +4488,36 @@ header .inner-conts nav .depth02 ul li a {
   overflow: hidden;
 }
 
-header .inner-conts nav .depth02 ul li a img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
+header .inner-conts nav .depth02 ul li a.nav01 {
+  background: url(../../image/nav_01.png) no-repeat center/cover;
+}
+
+header .inner-conts nav .depth02 ul li a.nav02 {
+  background: url(../../image/nav_02.png) no-repeat center/cover;
+}
+
+header .inner-conts nav .depth02 ul li a.nav03 {
+  background: url(../../image/nav_03.png) no-repeat center/cover;
+}
+
+header .inner-conts nav .depth02 ul li a.nav04 {
+  background: url(../../image/nav_04.png) no-repeat center/cover;
+}
+
+header .inner-conts nav .depth02 ul li a.nav05 {
+  background: url(../../image/nav_05.png) no-repeat center/cover;
+}
+
+header .inner-conts nav .depth02 ul li a.nav06 {
+  background: url(../../image/nav_06.png) no-repeat center/cover;
+}
+
+header .inner-conts nav .depth02 ul li a.nav07 {
+  background: url(../../image/nav_07.png) no-repeat center/cover;
+}
+
+header .inner-conts nav .depth02 ul li a.nav08 {
+  background: url(../../image/nav_08.png) no-repeat center/cover;
 }
 
 header .inner-conts nav .depth02 ul li a span {
