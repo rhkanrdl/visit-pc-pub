@@ -1,0 +1,157 @@
+.error_msg{font-size: 12px;color: #ff4a4a;margin-top: 5px;}
+
+.location_wrap .util_zone .btn_s_lnk{box-shadow : 1px 1px #c1c1c1;}
+.location_wrap .report_zone{z-index: 30;}
+
+/*메인*/
+.item_section .item_btm p.noneKr:first-child{width: 50%;}
+.item_section .item_top .s_theme{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;padding: 0 10px;}
+
+/*메인 정보영역*/
+.tab.item_5.overwrite_item_4 li .tab_btn{width: 25%}
+.tab.item_5.overwrite_item_4 li.tab1 .tab_btn{ left:0; }
+.tab.item_5.overwrite_item_4 li.tab2 .tab_btn{ left:25%; }
+.tab.item_5.overwrite_item_4 li.tab3 .tab_btn{ left:50%; }
+.tab.item_5.overwrite_item_4 li.tab4 .tab_btn{ left:75%; }
+
+/* 리스트 에서  하단에 공간 안남게*/
+.sub_visual_wrap .sub_info_area .weather .ico_weather{ width: auto;height: auto;padding: 18px 0px 10px 21px; }
+.recommend_area .item_list li .item_section .item_top .item_tag{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;padding: 0 5px 0 0;display: inline-block;}
+.recommend_area .item_list li .item_section .item_top .item_tag a{display: inline-block;}
+.recommend_area .item_list.type_thumb li .item_section .item_top .item_tag a{display: inline-block;}
+.recommend_area .item_list.type_thumb li .item_section .item_top .item_tag.prev{color:#ef6d00;}
+.recommend_area .item_list.type_thumb li .item_section .item_top .item_tag.next{}
+
+
+/*좋아요 찜 마우스 포인터*/
+.item_section .item_count_area .ico_type.like{cursor: pointer;}
+.item_section .item_count_area .ico_type.zzim{cursor: pointer;}
+
+.recommend_area .item_list.type_list li .item_section .item_count_area p.noneKr.ico_type:nth-child(2) span:first-child{position: relative;line-height: 14px;top: 7px;}
+
+/*아웃리뷰*/
+.review_inner_cont .review_head_tit img{vertical-align: middle;padding-left: 10px;}
+
+/*날씨 아이콘*/
+#header .sear_nav .etc_gnb>div {float:left; height: 40px; overflow: hidden;}
+#header .sear_nav .etc_gnb .weather_box:before{ background: none; }
+#header .sear_nav .etc_gnb .weather_box .ico_weather{width:40px;height:28px}
+#header .sear_nav .etc_gnb>div .weather_box{
+    /*animation-delay: 2s;*/
+}
+
+#header .sear_nav .etc_gnb>div .weather_box:first-child{
+    /*animation: infiniteLooper1 25s linear infinite;*/
+}
+#header .sear_nav .etc_gnb>div .weather_box:nth-child(2){
+    /*animation: infiniteLooper2 25s linear infinite;*/
+}
+#header .sear_nav .etc_gnb>div .weather_box a {display:block; position: absolute;left: 0px; top:3px;width:40px;height:28px}
+
+@keyframes  infiniteLooper1{
+    0% {
+        transform : translateY(100%);
+        opacity: 0;
+    }
+    2%{
+        transform : translateY(0%);
+        opacity: 1;
+    }
+    50% {
+        transform : translateY(0%);
+    }
+    52% {
+        transform : translateY(-100%);
+    }
+    100% {
+        transform : translateY(-100%);
+    }
+}
+
+@keyframes  infiniteLooper2{
+    0% {
+        transform : translateY(100%);
+    }
+    2%{
+        transform : translateY(0%);
+    }
+    50% {
+        transform : translateY(0%);
+        opacity: 0;
+    }
+    52% {
+        transform : translateY(-100%);
+        opacity: 1;
+    }
+    100% {
+        transform : translateY(-100%);
+    }
+}
+
+.tour_info .book_list li img{width: 156px;}
+.tour_info .theme_list.item_4 li{width: 25% !important;}
+
+#header .sear_nav .etc_gnb .btn_tracking{width: 130px; height: 29px; background: url('/image/common/img_commons_s.png') no-repeat -77px 6px !important;}
+
+.my_tour .profile_wrap .take_zone div .take_item .take_img img{border-radius: unset;}
+.pop_wrap .pop_container.pop_review .tag_list { padding-bottom: 0; font-size: 14px; }
+
+/*제주스토리*/
+.jeju_story .theme_list li a {font-size: 17px;}
+
+/*통합검색*/
+.the_other .result_box_r .sort_wrap .sort_list2 ul li.on a{color: #505050}
+.the_other .result_box_r .sort_wrap .sort_list2 ul li a{color:#a9a9a9;}
+
+.the_other .result_box_r .resut_wrap .result_field .result_list span.not_search_list{color:#ef6d00}
+.the_other .result_box_r .resut_wrap .result_field .naver_wrap span.not_search_list{color:#ef6d00}
+.the_other .result_box_r .resut_wrap .result_field .insta_wrap span.not_search_list{color:#ef6d00}
+
+.the_other .result_box_r .resut_wrap .result_field.detail .result_list li.not_search_list{border-bottom: none;}
+
+.the_other .result_box_r .resut_wrap .result_field .sear_keyword{color:#ef6d00}
+
+.the_other .result_box_r .resut_wrap .result_field .field_tit{margin-bottom: 20px;}
+
+/*테마에서 북마크 위치 조정*/
+.appraisal_list li div.ico_bookmark{height: 41px;margin-bottom: 9px;background-position: 50% 2px;}
+
+/*리뷰 팝업에 사진*/
+.pop_wrap table.board_write td .file_img_wrap .img_box {width: auto;max-width: 120px;height: 60px;}
+.pop_wrap table.board_write td .file_img_wrap .img_box img {position: relative;top: auto;left: auto;width: auto; max-width: 120px;height: 60px;}
+
+.lowmenu-img{
+    width: 528px;
+    height: 160px;
+}
+
+/*축제와 행사 가운데 정렬*/
+.recommend_tour .recommend_area .sort_month_wrap {text-align: center;}
+.recommend_tour .recommend_area .sort_month_wrap li { float : none; display: inline-block;}
+
+/*축제와 행사 썸네일*/
+.recommend_tour .recommend_area .event_item_wrap .event_list .list_item .item_img{height: 188px;}
+
+/*다국어 처리*/
+/*en*/
+/*헤더 글 문단*/
+.cont_wrap .h3_txt{-ms-word-wrap:break-word;word-wrap:break-word;}
+.cont_wrap .h4_txt{-ms-word-wrap:break-word;word-wrap:break-word;}
+
+.jeju_story.en .theme_list li a {font-size: 16px;}
+
+/*.tour_info .sub-detail .sub_tab.en{width: 610px;}*/
+/*.tour_info .sub-detail .sub_tab.my{width: 680px;}*/
+/*cn*/
+/*jp*/
+
+
+
+/*에러페이지 처리*/
+.the_other .error_wrap .link_area a span.noneKr{font-size: 14px;}
+
+/*하단 푸터 정렬*/
+footer {
+    float: left;
+    width: 100%;
+}

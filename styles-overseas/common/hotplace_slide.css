@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* -------- 슬라이드 공통 css -------- */
+.main_hotplace .slick-slider{-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}
+.main_hotplace .slick-list,.slick-slider{position:relative;display:block}
+.main_hotplace .slick-list{overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:none}
+.main_hotplace .slick-list.dragging{cursor:pointer;cursor:hand}
+.main_hotplace .slick-slider .slick-list,.main_hotplace .slick-slider .slick-track{-webkit-transform:translateZ(0);transform:translateZ(0)}
+.main_hotplace .slick-track{position:relative;left:0;top:0;display:block;margin-left:auto;margin-right:auto}
+.main_hotplace .slick-track:after,.main_hotplace .slick-track:before{content:"";display:table}
+.main_hotplace .slick-track:after{clear:both}
+.main_hotplace .slick-loading .slick-track{visibility:hidden}
+.main_hotplace .slick-slide{float:left;height:100%;min-height:1px;display:none}
+.main_hotplace .slick-slide img{display:block;width:100%;}
+.main_hotplace .slick-slide div img{max-width:100%;border:none;height:auto;}
+.main_hotplace .slick-slide>div>div{display:block;}
+.main_hotplace .slick-slide.slick-loading img{display:none}
+.main_hotplace .slick-slide.dragging img{pointer-events:none}
+.main_hotplace .slick-initialized .slick-slide{display:block}
+.main_hotplace .slick-loading .slick-slide{visibility:hidden}
+.main_hotplace .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
+.main_hotplace .slick-arrow.slick-hidden{display:none}
+
+.main_hotplace .slick-prev,
+.main_hotplace .slick-next
+{font-size:0;line-height:0;position:absolute;top:50%;display:block;width:21px;height:40px;padding:0;-webkit-transform:translate(0, -50%);-ms-transform:translate(0, -50%);transform:translate(0, -50%);cursor:pointer;color:transparent;border:none;outline:none;background:transparent;z-index:1;}
+.main_hotplace .slick-prev{background:url(/image/main/visual_left.png) no-repeat left top;left:30px;}
+.main_hotplace .slick-next{background:url(/image/main/visual_right.png) no-repeat left top;right:30px;}
+
+/* Dots */
+.main_hotplace .slick-dotted.slick-slider{margin-bottom: 30px;}
+.main_hotplace .slick-dots{position: absolute;bottom: -25px;display: block;width: 100%;padding: 0;margin: 0;list-style: none;text-align: center;}
+.main_hotplace .slick-dots li{position: relative;display: inline-block;width: 20px;height: 20px;margin: 0 3px;padding: 0;cursor: pointer;}
+
+.main_hotplace .slick-dots li button{font-size: 0;line-height: 0;display: block;width: 5px;height: 5px;padding: 5px;cursor: pointer;border: 0;outline: none;background-color:#d0d0d0;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;}
+.main_hotplace .slick-dots li.slick-active button{background-color:#00c3bd;}
+
+/* -------- hotplace_slide -------- */
+.hotplace_slide .slick-slide{padding:0 10px;}
+.hotplace_slide .slick-slide .responsive_slide_link{display:block;}
+.hotplace_slide .responsive_slide_txt{padding:10px 0px 10px 0px}
+.hotplace_slide .responsive_slide_txt .stitle{font-size:16px;color:#6d6d6d;margin-top:10px;font-weight:500;width:100%;white-space:nowrap;text-overflow: ellipsis;word-wrap:normal;overflow:hidden;}
+.hotplace_slide .responsive_slide_txt .title{font-size:24px;color:#000000;margin-top:10px;margin-bottom:10px;font-weight:500;width:100%;white-space:nowrap;text-overflow: ellipsis;word-wrap:normal;overflow:hidden;}
+.hotplace_slide .responsive_slide_txt .txt_area{ font-size: 14px; color: #3d3d3d; font-weight: 400; line-height: 22px; width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hotplace_slide .responsive_slide_txt .txt_area br {display:none}
+.hotplace_slide .responsive_slide_txt .user_profile_name{font-size:16px;color:#9d9d9d;font-weight:400;padding:10px 0;}
+.hotplace_slide .responsive_slide_link {background-repeat:no-repeat;background-size:cover;background-position:50% 50%}
+
+/* 모바일 */
+@media all and (max-width: 768px) {
+	.hotplace_slide .slick-slide{padding:0 10px;}
+	.hotplace_slide .responsive_slide_txt .stitle{margin-top:5px}
+	.hotplace_slide .responsive_slide_txt .title{margin-bottom:15px;}
+}
+
+/* 테블렛 */
+@media all and (min-width: 768px) and (max-width: 1160px) {
+
+}
+
+/* 데스크탑 */
+@media all and (max-width: 1160px) {
+   
+}

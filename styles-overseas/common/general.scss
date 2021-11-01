@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+@import "common", "layout", "main", "sub";
+
+@import url("./content_yoon.css");
+@import url("./content_ham.css");
+@import url("./content_etribe.css");
+@import url("./new.css");
+@import url("./_modify.css");
+@import url("./new_mal_style.css");
+/* @import url("./main.css"); */
+@import url("./board.css");
+@import url("./hotplace_slide.css");
+@import url("./pop_slider.css");
+// @import url("./sub_style.css");
+@import url("./add.css");
+
+
+
+
+// @import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+// @import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+
+// /* Maven_Pro - regular */
+// @font-face {
+//     font-family: 'MavenPro';
+//     src: url('/fonts/mavenpro_regular.eot');
+//     src: url('/fonts/mavenpro_regular.eot?#iefix') format('embedded-opentype'),
+//     url('/fonts/mavenpro_regular.woff2') format('woff2'),
+//     url('/fonts/mavenpro_regular.woff') format('woff'),
+//     url('/fonts/mavenpro_regular.ttf') format('truetype'),
+//     url('/fonts/mavenpro_regular.svg#mavenpro_regular') format('svg');
+//     font-weight: 400;
+// }
+
+// /* Maven_Pro - medium */
+// @font-face {
+//     font-family: 'MavenPro';
+//     src: url('/fonts/mavenpro_medium.eot');
+//     src: url('/fonts/mavenpro_medium.eot?#iefix') format('embedded-opentype'),
+//     url('/fonts/mavenpro_medium.woff2') format('woff2'),
+//     url('/fonts/mavenpro_medium.woff') format('woff'),
+//     url('/fonts/mavenpro_medium.ttf') format('truetype'),
+//     url('/fonts/mavenpro_medium.svg#mavenpro_regular') format('svg');
+//     font-weight: 600;
+// }
+
+// /* Maven_Pro - bold */
+// @font-face {
+//     font-family: 'MavenPro';
+//     src: url('/fonts/mavenpro_bold.eot');
+//     src: url('/fonts/mavenpro_bold.eot?#iefix') format('embedded-opentype'),
+//     url('/fonts/mavenpro_bold.woff2') format('woff2'),
+//     url('/fonts/mavenpro_bold.woff') format('woff'),
+//     url('/fonts/mavenpro_bold.ttf') format('truetype'),
+//     url('/fonts/mavenpro_bold.svg#mavenpro_bold') format('svg');
+//     font-weight: 800;
+// }

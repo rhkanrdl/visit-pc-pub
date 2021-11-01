@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* -------- 슬라이드 공통 css -------- */
+.flex_slider.slick-slider{-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}
+.flex_slider .slick-list,.flex_slider.slick-slider{position:relative;display:block}
+.flex_slider .slick-list{overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:none}
+.flex_slider .slick-list.dragging{cursor:pointer;cursor:hand}
+.flex_slider.slick-slider .slick-list,.flex_slider.slick-slider .slick-track{-webkit-transform:translateZ(0);transform:translateZ(0)}
+.flex_slider .slick-track{position:relative;left:0;top:0;display:block;margin-left:auto;margin-right:auto}
+.flex_slider .slick-track:after, .flex_slider .slick-track:before{content:"";display:table}
+.flex_slider .slick-track:after{clear:both}
+.flex_slider .slick-loading .slick-track{visibility:hidden}
+.flex_slider .slick-slide{float:left;height:100%;min-height:1px;display:none}
+[dir=rtl] .slick-slide{float:right}
+.flex_slider .slick-slide img{display:block;flex-shrink:0;max-width:100%;}
+.flex_slider .slick-slide div img{border:none;}
+.flex_slider .slick-slide>div>div{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100vh;position:relative;}
+.flex_slider .slick-slide.slick-loading img{display:none}
+.flex_slider .slick-slide.dragging img{pointer-events:none}
+.flex_slider.slick-initialized .slick-slide{display:block}
+.flex_slider .slick-loading .slick-slide{visibility:hidden}
+.flex_slider .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
+.flex_slider .slick-arrow.slick-hidden{display:none}
+
+.flex_slider .slick-prev,
+.flex_slider .slick-next
+{font-size:0;line-height:0;position:absolute;top:50%;display:block;width:21px;height:40px;padding:0;-webkit-transform:translate(0, -50%);-ms-transform:translate(0, -50%);transform:translate(0, -50%);cursor:pointer;color:transparent;border:none;outline:none;background:transparent;z-index:1;}
+.flex_slider .slick-prev{background:url(/image/main_campaign/visual_left.png) no-repeat left top;left:30px;}
+.flex_slider .slick-next{background:url(/image/main_campaign/visual_right.png) no-repeat left top;right:30px;}
+
+
+
+
+/* 모바일 */
+@media all and (max-width: 768px) {
+
+}
+/* 테블렛 */
+@media all and (min-width: 768px) and (max-width: 1160px) {
+	
+}
+/* 데스크탑 */
+@media all and (max-width: 1160px) {
+  
+}
+
+

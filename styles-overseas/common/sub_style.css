@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+/* -------- sub_map  -------- */
+/* -------- main_jeju_map  -------- */
+#container_campaign .main_jeju_map{padding:20px 0;background-color:#ffffff;position:relative;}
+#container_campaign .main_jeju_map .layer_map_area{max-width:800px;margin:0 auto;}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign{position:relative;width:100%;height:0;padding-bottom:54.2%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul{position:absolute;top:0;left:0;width:100%;height:100%;background:url(/image/common_campaign/map_large.png) no-repeat 50% 0;background-size:95%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a{position:absolute;width:9%;height:8%;color:transparent;border:1px solid transparent;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a span{display:inline-block;position:absolute;width:9%;height:8%;color:transparent;border:1px solid transparent;opacity:0;}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a p{font-size:20px;color:#014644;margin-bottom:47px}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.udo p{margin-bottom:0;}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.marado p{margin-bottom: 0;margin-left: 41px;}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.andeok p{margin-bottom:60px;}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.gapado p{margin-bottom: 0;margin-left: 40px;}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.jejusi{background-position:center 4.8%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.jocheon{background-position:center 9.615%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.gujwa{background-position:center 14.428%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.seongsan{background-position:center 19.24%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.pyoseon{background-position:center 24.056%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.namwon{background-position:center 28.876%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.seogwipo{background-position:center 33.69%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.jungmun{background-position:center 38.50%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.andeok{background-position:center 43.3095%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.daejong{background-position:center 48.13%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.hangyeong{background-position:center 52.94%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.halim{background-position:center 57.756%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.aewol{background-position:center 62.57%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.chusado{background-position:center 67.39%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.biyangdo{background-position:center 72.199%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.chagwido{background-position:center 77.01%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.gapado{background-position:center 81.8298%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.marado{background-position:center 86.64009%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign ul.udo{background-position:center 91.459%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.jejusi{top:18%;left:43%;width:13%;height:22%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.aewol{top:25%;left:30%;width:12%;height:22%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.halim{top:40%;left:19%;width:16%;height:9%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.hangyeong{top:50%;left:17%;width:10%;height:9%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.jocheon{top:11%;left:57%;width:10%;height:22%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.gujwa{top:8%;left:67.5%;width:10%;height:18%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.seogwipo{top:48%;left:48%;width:8%;height:22%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.daejong{top:60%;left:18.5%;width:9%;height:11%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.andeok{top:52%;left:28%;width:6.7%;height:21%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.jungmun{top:50%;left:37%;width:10%;height:22%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.namwon{top:41%;left:56.5%;width:11%;height:22%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.pyoseon{top:33%;left:67%;width:8%;height:20%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.seongsan{top:26%;left:75%;width:9%;height:22%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.udo{top:8%;right:9%;width:7%;height:13%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.chusado{top:1%;left:24%;width:13%;height:14%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.marado{bottom:2%;left:22%;width:7%;height:8%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.biyangdo{top:31%;left:16.6%;width:7%;height:9%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.chagwido{top:48%;left:9%;width:7.5%;height:10%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.gapado{bottom:11%;left:22%;width:7%;height:9%}
+#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign button{position:absolute;bottom:0;right:13px}
+#container_campaign .main_jeju_map .btn_map_reset{position:absolute;bottom:40px;right:0;border:1px solid #00c3bd;border-radius:5px;width:145px;height:33px;font-size:17px;color:#00c3bd;background:#fff;font-weight:600;}
+
+/* -------- sub_content(사진 리스트) -------- */
+#container_campaign.sub_content{background-color:#ffffff;position:relative;padding-bottom:100px;}
+#container_campaign .list_top_btns{text-align:center;padding:30px 0}
+#container_campaign .list_top_btns ul{display:inline-block;}
+#container_campaign .list_top_btns ul li{float:left;width:100px;height:40px;box-sizing:border-box;overflow:hidden;-webkit-border-radius:40px;-moz-border-radius:40px;border-radius:40px;margin-left:20px;}
+#container_campaign .list_top_btns ul li:first-child{margin-left:0;}
+#container_campaign .list_top_btns ul li a{display:block;font-size:18px;color:#666666;font-weight:600;padding:10px 0;background-color:#d9d9d9;}
+#container_campaign .list_top_btns ul li.on a{background-color:#00c3bd;color:#ffffff;}
+#container_campaign .list_top_btns ul li.jeju_map_btn{border:1px solid #00c3bd;width:170px;margin-left:0;text-align:left;}
+#container_campaign .list_top_btns ul li.jeju_map_btn a{background:url(/image/sub_campaign/icon/ico_arr_down.png) no-repeat 88% center;background-color:#fff;color:#00c3bd;padding:10px 0 10px 20px;}
+#container_campaign .list_top_btns ul li.jeju_map_btn.open a{background:url(/image/sub_campaign/icon/ico_arr_up.png) no-repeat 88% center;}
+
+#container_campaign .map_count_mobile{display:none;text-align:left;font-size:18px;font-weight:600;color:#666666;padding:0 10px;}
+#container_campaign .map_count_mobile .map_count{color:#00c3bd;}
+#container_campaign .grid:after{content:'';display:block;clear:both;}
+#container_campaign .grid-sizer, #container_campaign .grid-item { width: 32.333333%;padding:0.5rem 0.6%; box-sizing:border-box;}
+#container_campaign .grid-item {float:left;}
+/*#container_campaign .photo_list_wrap{-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;box-shadow:0px 0px 10px rgba(0, 0, 0, 0.3);padding-bottom:10px;}*/
+#container_campaign .photo_list_wrap{box-sizing:border-box;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;border: 1px solid #dfdfdf;box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1); padding-bottom: 15px; background-color:#fff;}
+#container_campaign .photo_list_top{box-sizing:border-box;padding:8px 14px;}
+#container_campaign .photo_list_top .user_profile{float:left;width:55%;}
+#container_campaign .photo_list_top .user_profile span{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;flex-direction: row;float:left;}
+#container_campaign .photo_list_top .user_profile .user_profile_small{width:40px;height:40px;background-size:cover;overflow:hidden;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;}
+#container_campaign .photo_list_top .user_profile .user_profile_name{height:40px;padding-left:5px;font-size:14px;color:#000000;box-sizing:border-box;width:calc(100% - 40px);}
+#container_campaign .photo_list_top .user_profile .user_profile_name .user_profile_name_inner{display:block;white-space:nowrap;text-overflow: ellipsis;word-wrap:normal;overflow:hidden;}
+#container_campaign .photo_list_top .sns_etc{float:right;}
+#container_campaign .photo_list_top .sns_etc .like_wrap, #container_campaign .photo_list_top .sns_etc .share_wrap{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:40px;float:left}
+#container_campaign .photo_list_top .sns_etc .like_wrap .button_like{width:25px;height:22px;background:url(/image/sub_campaign/icon/ico_heart_line.png) no-repeat;line-height:500px;overflow:hidden;background-color:transparent;cursor:pointer;background-size:24px;}
+#container_campaign .photo_list_top .sns_etc .like_wrap span{width:30px;padding-left:5px;display:inline-block;overflow:hidden;padding-right:10px;}
+
+
+#container_campaign .photo_list_top .sns_etc .like_wrap .button_like.like{background:url(/image/sub_campaign/icon/ico_heart_color.png) no-repeat;background-size: 24px;}
+#container_campaign .photo_list_top .sns_etc .share_wrap .button_share{width:25px;height:24px;background:url(/image/sub_campaign/icon/icon_sns_share.png) no-repeat;line-height:500px;overflow:hidden;background-color:transparent;cursor:pointer;background-size:24px;}
+#container_campaign .photo_list_top .sns_etc .share_wrap .share_popup{display:none;position:absolute;top:50px;right:-11px;}
+#container_campaign .photo_list_top .sns_etc .share_wrap .share_popup.share_popup_open{display: block;}
+#container_campaign .photo_list_top .sns_etc .share_wrap .share_popup button{width:44px;height:43px;background-color:transparent;cursor:pointer;font-size:0;color:transparent;overflow:hidden;box-shadow:0px 0px 5px rgba(0, 0, 0, .5);-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;padding:0;margin-bottom:5px;}
+
+#container_campaign .photo_list_top .sns_etc .share_wrap .share_popup .sns_facebook{background:url(/image/sub_campaign/icon/ico_facebook.png) no-repeat #395a9b;background-size: 42px;}
+#container_campaign .photo_list_top .sns_etc .share_wrap .share_popup .sns_kakaotalk{background:url(/image/sub_campaign/icon/ico_kakao.png) no-repeat #f7ee2c;background-size: 42px;}
+#container_campaign .photo_list_top .sns_etc .share_wrap .share_popup .sns_kakaostory{background:url(/image/sub_campaign/icon/ico_kakaostory.png) no-repeat #fbc010;background-size: 42px;}
+#container_campaign .photo_list_top .sns_etc .share_wrap .share_popup .sns_twitter{background:url(/image/sub_campaign/icon/ico_twitter.png) no-repeat #33bdfd;background-size: 42px;}
+#container_campaign .photo_list_top .sns_etc .share_wrap .share_popup .sns_url_copy{background:url(/image/sub_campaign/icon/ico_link.png) no-repeat #00d2cc; background-size: 44px;}
+
+#container_campaign .photo_list_mid .image_tit{box-sizing:border-box;width:100%;padding:0 15px;font-size:15px;color:#010000;font-weight:500;padding-bottom:8px;white-space:nowrap;text-overflow: ellipsis;word-wrap:normal;overflow:hidden;}
+#container_campaign .photo_list_mid .image_box a{display:block;}
+#container_campaign .photo_list_mid img{width:100%;vertical-align:top;}
+
+#container_campaign .photo_list_btm {padding: 15px 15px 0px 15px;}
+#container_campaign .photo_list_btm .photo_txt{font-size:17px;overflow-wrap: break-word;}
+#container_campaign .photo_list_btm .photo_tag{font-size:15px;color:#01aba6;margin-top:5px}
+
+#container_campaign .photo_detail_view{/*display:none;*/position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:999;}
+#container_campaign .photo_detail_bg{position:absolute;top:0px;left:0px;width:100%;height:100%;background-color:#000;opacity:0.9;z-index:1;}
+
+#container_campaign .photo_detail_view .image_area{position:relative;max-height:100%;width:100%;height:100%;text-align:center;box-sizing:border-box;}
+#container_campaign .photo_detail_view .image_area img{position:absolute;z-index:9999;max-width:100%;height:auto;}
+
+#container_campaign .photo_detail_view .contents_area{position:fixed;bottom:0px;left:0px;width:100%;background:url(/image/sub_campaign/modal_bg.png) repeat;z-index:9999;}
+#container_campaign .photo_detail_view .contents_area .contents_more{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#ffffff;font-size:17px;font-weight:600;height:40px;}
+#container_campaign .photo_detail_view .contents_area .contents_more span.photo_region{font-size:14px;padding-right:10px;}
+#container_campaign .photo_detail_view .contents_area .contents_more span.photo_zone{padding-right:18px;background:url(/image/sub_campaign/icon/ico_arr_white_up.png) no-repeat right 6px;background-size:10px;}
+#container_campaign .photo_detail_view .contents_area .contents_more.open span.photo_zone{background:url(/image/sub_campaign/icon/ico_arr_white_down.png) no-repeat right 6px;background-size:10px;}
+
+#container_campaign .photo_detail_view .user_profile{float:left;width:100%;}
+#container_campaign .photo_detail_view .user_profile span{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;flex-direction: row;float:left;}
+#container_campaign .photo_detail_view .user_profile .user_profile_small{width:40px;height:40px;background-size:cover;overflow:hidden;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;}
+#container_campaign .photo_detail_view .user_profile .user_profile_name{height:40px;padding-left:5px;font-size:17px;color:#ffffff;box-sizing:border-box;width:calc(100% - 40px);}
+#container_campaign .photo_detail_view .user_profile .user_profile_name .user_profile_name_inner{display:block;white-space:nowrap;text-overflow: ellipsis;word-wrap:normal;overflow:hidden;}
+#container_campaign .photo_detail_view .contents_hide_area{/*display:none;*/overflow:hidden;}
+#container_campaign .photo_detail_view .contents_hide_area .contents_hide_area_inner{padding:15px 0;overflow:hidden;}
+#container_campaign .photo_detail_view .contents_txt{font-size:17px;color:#ffffff;margin-top:5px;}
+#container_campaign .photo_detail_view .contents_tag{font-size:15px;color:#ffffff;margin-top:15px;}
+#container_campaign .photo_detail_view .contents_tag .photo_tag{font-size:15px;color:#01aba6;margin-top:15px;}
+#container_campaign .photo_detail_view .contents_date{font-size:15px;color:#ffffff;margin-top:5px}
+#container_campaign .detail_nav{position:absolute;top:50%;width:100%;margin:0px auto;z-index:99999;}
+#container_campaign .detail_nav a{color:#ffffff;position:absolute;width:21px;height:40px;top:50%;line-height:500;overflow:hidden;transform: translate(0, -50%);}
+#container_campaign .detail_nav a.detail_prev {background:url(/image/sub_campaign/icon/detail_left.png) no-repeat 20px center;left:0px;padding:20px;}
+#container_campaign .detail_nav a.detail_next {background:url(/image/sub_campaign/icon/detail_right.png) no-repeat 20px center;right:0px;padding:20px;}
+#container_campaign .photo_detail_view .close_div{position:absolute;top:0px;left:0px;right:0px;bottom:0px;cursor:pointer;z-index:30;}
+#container_campaign .photo_detail_view .close{display:block;position:absolute;right:0px;top:0;width:30px;height:30px;background:url(/image/sub_campaign/modal_bg.png) repeat;overflow:hidden;padding:10px;color:transparent;z-index:9999;}
+#container_campaign .photo_detail_view .close:after{position:absolute;top:10px;right:10px;content:"";display:block;width:30px;height:30px;background:url(/image/sub_campaign/icon/icon_close_wh25.png) no-repeat center / 100%;background-size: 28px 28px;z-index:99999;overflow:hidden;}
+
+/* -------- sub_content(나의 사진 리스트) -------- */
+#container_campaign .mylist_top_menu{padding-bottom:15px;padding-top:10px;}
+#container_campaign .mylist_count_mobile{display:none;float:left;text-align:left;font-size:18px;font-weight:600;color:#666666;padding:0 10px;margin-top:25px;}
+#container_campaign .mylist_count_mobile .mylist_count{color:#00c3bd;}
+#container_campaign .mylist_menu{display:none;box-sizing:border-box;background:url(/image/sub_campaign/icon/ico_arr_down.png) no-repeat 88% center;background-color:#fff;color:#00c3bd;padding:10px 0 10px 20px;border:1px solid #00c3bd;width:170px;margin-left:0;text-align:left;-webkit-border-radius:40px;-moz-border-radius:40px;border-radius:40px;float:right;margin-top:15px;margin-right:10px;font-size:17px;font-weight:600;}
+#container_campaign .mylist_menu.on{background:url(/image/sub_campaign/icon/ico_arr_up.png) no-repeat 88% center;}
+#container_campaign .mylist_top{text-align:center;margin-bottom:10px;}
+#container_campaign .mylist_top ul{display:inline-block;}
+#container_campaign .mylist_top ul li{float:left;box-sizing:border-box;padding-left:20px;}
+#container_campaign .mylist_top ul li:first-child{margin-left:0px;}
+#container_campaign .mylist_top ul li a{display:block;font-size:18px;color:#666666;font-weight:600;}
+#container_campaign .mylist_top ul li a:hover{color: #666;}
+#container_campaign .mylist_top ul li a span{color:#00c3bd;padding-left:10px;}
+
+/* -------- sub_content(다른사람의 사진 리스트) -------- */
+#container_campaign .other_list_top {text-align:center;padding:20px 0;}
+#container_campaign .other_list_top .user_profile{display:inline-block;}
+#container_campaign .other_list_top .user_profile span{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;flex-direction: row;float:left;}
+#container_campaign .other_list_top .user_profile .user_profile_small{width:40px;height:40px;background-size:cover;overflow:hidden;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;}
+#container_campaign .other_list_top .user_profile .user_profile_name{height:40px;padding-left:7px;font-size:17px;color:#000000;box-sizing:border-box;}
+#container_campaign .other_list_top .user_profile .user_profile_txt{height:40px;padding-left:5px;font-size:17px;color:#000000;box-sizing:border-box;}
+
+/* -------- sub_content(탈퇴페이지) -------- */
+#container_campaign .mypage_title{display:block;font-size:30px;font-weight:600;color:#3d3d3d;text-align:center;padding:120px 0 60px;}
+#container_campaign .mypage_btxt{font-size:24px;font-weight:500;color:#333333;text-align:center;padding-bottom:60px;}
+#container_campaign .mypage_stxt{font-size:18px;font-weight:400;color:#6d6d6d;text-align:center;line-height:1.5;}
+#container_campaign .mypage_btn{text-align:center;padding-top:60px;padding-bottom:40px;}
+#container_campaign .mypage_btn a{display:inline-block;padding:10px 40px;background-color:#01d2cc;color:#fff;font-size:18px;}
+#container_campaign .mypage_btn a.btn2{background-color: #e8e8e8;color: #6c6c6c;margin-left: 10px;}
+/* --------------------------------------------
+ *
+ *	미디어쿼리 구문
+ * 
+ *  --------------------------------------------*/
+
+/* 모바일 */
+@media all and (max-width: 768px) {
+	#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a p{width:9%;height:8%;color:transparent;border:1px solid transparent;opacity:0;}
+	#container_campaign .map_count_mobile{display:block;text-align:center;}
+	#container_campaign .grid .grid-sizer, #container_campaign .grid .grid-item { width: 100%;padding:1rem 2%; }
+	#container_campaign .list_top_btns{text-align:center;padding:15px 0 20px}
+	#container_campaign .list_top_btns ul li{margin-left:5px;width:75px;}
+	#container_campaign .list_top_btns ul li.jeju_map_btn{width:150px;}
+	#container_campaign .list_top_btns ul li a{font-size:13px;font-weight:500;padding:7px 0;}
+	#container_campaign .list_top_btns ul li.jeju_map_btn a{padding: 7px 0 7px 20px;background-size: 12px;}
+	#container_campaign .list_top_btns ul li.jeju_map_btn.open a{background-size: 12px;background-position:88% 9px;}
+	#container_campaign .list_top_btns ul li{height:28px;}
+	#container_campaign .main_jeju_map .btn_map_reset{font-size:14px;font-weight:400;right:50%;transform: translate(50%, 0%);}
+	#container_campaign .main_jeju_map .layer_map_area .layer_map_campaign a.udo p{margin-left:0;}
+
+	#container_campaign .detail_nav a.detail_prev {background:url(/image/sub_campaign/icon/detail_left.png) no-repeat 20px center;left:0px;padding:20px;}
+	#container_campaign .detail_nav a.detail_next {background:url(/image/sub_campaign/icon/detail_right.png) no-repeat 20px center;right:0px;padding:20px;}
+	#container_campaign .photo_detail_view .contents_hide_area .contents_hide_area_inner{padding:15px;overflow:hidden;}
+	#container_campaign .photo_detail_view .contents_txt{font-size:15px;}
+
+	#container_campaign .event_board_list ul li{width:100%;padding:20px;}
+
+	#container_campaign .mylist_top{display:none;}
+	#container_campaign .mylist_count_mobile, #container_campaign .mylist_menu{display:block;}
+	#container_campaign .mylist_count_mobile{margin-top:20px;}
+	#container_campaign .mylist_menu{padding:7px 0px 7px 20px;font-size:15px;font-weight:400;}
+
+	#container_campaign .mylist_top ul li{width:100%;padding:5px;border-bottom:1px solid #eee}
+	#container_campaign .mylist_top ul li a{padding:10px 5px}
+	#container_campaign .mylist_top ul li:first-child{border-top:1px solid #22b7b2}
+	#container_campaign .mylist_top ul li.mobile_hide{display:none;}
+
+	#container_campaign .other_list_top {text-align:center;padding:20px 0 10px;}
+	#container_campaign .other_list_top .user_profile .user_profile_name,
+	#container_campaign .other_list_top .user_profile .user_profile_txt{font-size:15px;}
+
+	#container_campaign .mypage_title{font-size:24px;padding: 40px 0 35px;}
+	#container_campaign .mypage_btxt{font-size:22px;padding:0 20px 40px 20px;}
+	#container_campaign .mypage_stxt{padding:0 10px;font-size: 17px;}
+}
+
+/* 테블렛 */
+@media all and (min-width: 768px) and (max-width: 1160px) {
+	#container_campaign .map_count_mobile{display:none;}
+	#container_campaign .grid .grid-sizer, #container_campaign .grid .grid-item { width: 49.5%;padding:1rem 1%; }
+	#container_campaign .photo_detail_view .contents_hide_area .contents_hide_area_inner{padding:15px;overflow:hidden;}
+
+	#container_campaign .event_board_list ul li{width:50%;padding:10px;}
+
+	#container_campaign .mylist_top{display:none;}
+	#container_campaign .mylist_count_mobile, #container_campaign .mylist_menu{display:block;}
+	#container_campaign .mylist_top ul{width:100%;}
+	#container_campaign .mylist_top ul li{width:100%;border-bottom:1px solid #eee}
+	#container_campaign .mylist_top ul li a{padding:10px 5px}
+	#container_campaign .mylist_top ul li:first-child{border-top:1px solid #22b7b2}
+	#container_campaign .mylist_top ul li.mobile_hide{display:none;}
+
+	#container_campaign .other_list_top {text-align:center;padding:20px 0 10px;}
+	#container_campaign .other_list_top .user_profile .user_profile_name,
+	#container_campaign .other_list_top .user_profile .user_profile_txt{font-size:15px;}
+
+
+}
+/* 데스크탑 */
+@media all and (min-width: 1160px) {
+	#container_campaign .mylist_top{display:block !important;}
+	#container_campaign .mylist_top ul li a{color:#c1bcbe}
+	#container_campaign .mylist_top ul li a span{/*color:#c1bcbe;*/padding-left:10px;}
+	#container_campaign .mylist_top ul li.on a{display:block;font-size:18px;color:#666666;font-weight:600;}
+	#container_campaign .mylist_top ul li.on a span{color:#00c3bd;padding-left:10px;}
+	/*#container_campaign .mylist_top ul li.mobile_hide a{color:#666666;}*/
+}
