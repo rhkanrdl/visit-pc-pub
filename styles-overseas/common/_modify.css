@@ -15,12 +15,12 @@
 .tab.item_5.overwrite_item_4 li.tab4 .tab_btn{ left:75%; }
 
 /* 리스트 에서  하단에 공간 안남게*/
-.sub_visual_wrap .sub_info_area .weather .ico_weather{ width: auto;height: auto;padding: 18px 0px 10px 21px; }
+/* .sub_visual_wrap .sub_info_area .weather .ico_weather{ width: auto;height: auto;padding: 18px 0px 10px 21px; }
 .recommend_area .item_list li .item_section .item_top .item_tag{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;padding: 0 5px 0 0;display: inline-block;}
 .recommend_area .item_list li .item_section .item_top .item_tag a{display: inline-block;}
 .recommend_area .item_list.type_thumb li .item_section .item_top .item_tag a{display: inline-block;}
 .recommend_area .item_list.type_thumb li .item_section .item_top .item_tag.prev{color:#ef6d00;}
-.recommend_area .item_list.type_thumb li .item_section .item_top .item_tag.next{}
+.recommend_area .item_list.type_thumb li .item_section .item_top .item_tag.next{} */
 
 
 /*좋아요 찜 마우스 포인터*/

@@ -419,7 +419,7 @@ p.non_data{margin-top:20px; padding-top:60px; font-size:16px; color:#8C8C8C; lin
 #header .nav .logo a{display:block; width:100%; height:100%}
 /*//공통*/
 
-.recommend_area{margin-top:40px !important;}
+/* .recommend_area{margin-top:40px !important;} */
 .cont_wrap .layer_map_area .btn_map_reset{position:absolute; bottom:40px; right:10px; border:1px solid #ef6d00; border-radius:5px; width:145px; height:33px; font-size:15px; color:#F86401; background:#fff}
 .cont_wrap .toggleMapArea {text-align:center;padding-top:40px}
 .cont_wrap .toggleMapArea button {border: 1px solid #ef6d00;border-radius: 5px;background: #fff; padding:0 10px 0 10px;}
@@ -451,7 +451,7 @@ p.non_data{margin-top:20px; padding-top:60px; font-size:16px; color:#8C8C8C; lin
 .my_tour .profile_wrap .take_zone div .take_item .take_img{overflow:hidden; border-radius:50%; text-align:center; text-indent:0 !important; background-color:#fff !important; background-image:none !important;}
 .my_tour .profile_wrap .take_zone div .take_item .take_img img{display:inline-block !important;  width:40px !important; height:auto !important; vertical-align:middle}
 
-.item_section .item_top .s_tit{overflow:hidden; margin:19px auto 0; width:94%; text-overflow:ellipsis; white-space:nowrap}
+/* .item_section .item_top .s_tit{overflow:hidden; margin:19px auto 0; width:94%; text-overflow:ellipsis; white-space:nowrap} */
 .item_section .item_count_area.type4{padding-top:0 !important}
 .item_section .item_count_area.type4 p.ico_type{width:25%}
 .item_section .item_count_area.type4 p.ico_type:first-child{width:25%}

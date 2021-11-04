@@ -191,6 +191,7 @@
 									<div class="swiper-buttons">
 										<div class="swiper-button-prev"></div>
 										<div class="swiper-button-next"></div>
+										<div class="swiper-button-lock"></div>
 									</div>
 									<div class="swiper-pagination"></div>
 								</div>
@@ -864,6 +865,10 @@
 		slidesPerView: "auto",
         loop: true,
         spaceBetween: 0, 
+		autoplay: {
+			delay: 5000,
+			prevEl: ".visualthumb01 .swiper-button-prev",
+		},
 		pagination: {
 			el: '.visualthumb01 .swiper-pagination',
 			type: "fraction",
@@ -873,7 +878,9 @@
           prevEl: ".visualthumb01 .swiper-button-prev",
         }, 
     });
+
  
+
 	var swiper = new Swiper(".visualthumb02", {
 		slidesPerView: "auto",
         loop: true,
