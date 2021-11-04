@@ -2,12 +2,26 @@
 
 
 body.main {
+    
+    
+    &::before {
+        content: "";
+        position: absolute;
+        z-index:1;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 164rem;
+        background-color: #f6f6f6;
+
+    }
 
 
     .visual-wrap {
         height: 78rem;
         background-color: #ccc;
         position: relative;
+        z-index:2;
         overflow: hidden;
         /*width:100vw;*/
         min-width: 129rem;
@@ -371,26 +385,11 @@ body.main {
     
             }
         }
-    
+
     }
     
     
     /* container */
-    .container {
-        position: relative;
-        min-width: 129rem;
-    
-        &::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 86rem;
-            background-color: #f6f6f6;
-            z-index: 1;
-        }
-    
         .h2-wrap {
             h2 {
                 font-size: 5rem;
@@ -444,7 +443,6 @@ body.main {
             width: 129rem;
             padding-top: 6rem;
             margin-bottom: 19.5rem;
-    
             .noticeSwiper {
                 padding: 0 7rem 0 8rem;
                 display: flex;
@@ -982,7 +980,6 @@ body.main {
             }
         }
     
-    }
     
 
 
