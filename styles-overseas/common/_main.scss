@@ -443,6 +443,8 @@ body.main {
             width: 129rem;
             padding-top: 6rem;
             margin-bottom: 19.5rem;
+
+
             .noticeSwiper {
                 padding: 0 7rem 0 8rem;
                 display: flex;
@@ -515,6 +517,16 @@ body.main {
     
             }
     
+        }
+        .theme-travel-wrap {
+            position: relative;
+            z-index: 2;
+            margin: 0 auto;
+            width: 129rem;
+            padding-top: 6rem;
+            margin-bottom: 19.5rem;
+
+            
             .theme-travel {
                 display: flex;
                 flex-wrap: wrap;
